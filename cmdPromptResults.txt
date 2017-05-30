@@ -1,0 +1,277 @@
+
+C:\Users\Amruta\IdeaProjects\CucumberSeleniumJavaProject>mvn clean
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building CucumberSeleniumJavaProject 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ CucumberSeleniumJavaProject ---
+[INFO] Deleting C:\Users\Amruta\IdeaProjects\CucumberSeleniumJavaProject\target
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.328 s
+[INFO] Finished at: 2017-05-30T19:30:34+10:00
+[INFO] Final Memory: 7M/245M
+[INFO] ------------------------------------------------------------------------
+
+C:\Users\Amruta\IdeaProjects\CucumberSeleniumJavaProject>mvn compile
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building CucumberSeleniumJavaProject 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ CucumberSeleniumJavaProject ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ CucumberSeleniumJavaProject ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.297 s
+[INFO] Finished at: 2017-05-30T19:30:48+10:00
+[INFO] Final Memory: 11M/245M
+[INFO] ------------------------------------------------------------------------
+
+C:\Users\Amruta\IdeaProjects\CucumberSeleniumJavaProject>mvn verify
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building CucumberSeleniumJavaProject 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ CucumberSeleniumJavaProject ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ CucumberSeleniumJavaProject ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ CucumberSeleniumJavaProject ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\Amruta\IdeaProjects\CucumberSeleniumJavaProject\src\test\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.6.1:testCompile (default-testCompile) @ CucumberSeleniumJavaProject ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 16 source files to C:\Users\Amruta\IdeaProjects\CucumberSeleniumJavaProject\target\test-classes
+[INFO]
+[INFO] --- maven-surefire-plugin:2.20:test (default-test) @ CucumberSeleniumJavaProject ---
+[INFO]
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running runner.TestRunner
+Open browser here ....
+Starting ChromeDriver 2.29.461591 (62ebf098771772160f391d75e589dc567915b233) on port 37760
+Only local connections are allowed.
+May 30, 2017 7:31:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Close browser here ....
+Open browser here ....
+Starting ChromeDriver 2.29.461591 (62ebf098771772160f391d75e589dc567915b233) on port 34957
+Only local connections are allowed.
+May 30, 2017 7:31:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Close browser here ....
+Open browser here ....
+Starting ChromeDriver 2.29.461591 (62ebf098771772160f391d75e589dc567915b233) on port 13998
+Only local connections are allowed.
+May 30, 2017 7:31:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Close browser here ....
+Open browser here ....
+Starting ChromeDriver 2.29.461591 (62ebf098771772160f391d75e589dc567915b233) on port 29025
+Only local connections are allowed.
+May 30, 2017 7:32:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Close browser here ....
+Open browser here ....
+Starting ChromeDriver 2.29.461591 (62ebf098771772160f391d75e589dc567915b233) on port 32114
+Only local connections are allowed.
+May 30, 2017 7:32:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Close browser here ....
+Open browser here ....
+Starting ChromeDriver 2.29.461591 (62ebf098771772160f391d75e589dc567915b233) on port 44197
+Only local connections are allowed.
+May 30, 2017 7:32:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Close browser here ....
+Open browser here ....
+Starting ChromeDriver 2.29.461591 (62ebf098771772160f391d75e589dc567915b233) on port 22309
+Only local connections are allowed.
+May 30, 2017 7:32:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Close browser here ....
+Open browser here ....
+Starting ChromeDriver 2.29.461591 (62ebf098771772160f391d75e589dc567915b233) on port 37081
+Only local connections are allowed.
+May 30, 2017 7:32:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Close browser here ....
+
+Failed scenarios:
+Contact.feature:3 # Scenario: Verify mandatory error messages are displayed
+Contact.feature:38 # Scenario: Verify the successful submission
+
+8 Scenarios (2 failed, 6 passed)
+32 Steps (2 failed, 2 skipped, 28 passed)
+1m49.232s
+
+java.lang.NullPointerException
+        at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+        at pageobjects.ContactPage.clickSubmit(ContactPage.java:94)
+        at stepdefinitions.ContactSteps.theUserClicksSubmitButton(ContactSteps.java:36)
+        at ?.When the user clicks Submit button(Contact.feature:5)
+
+java.lang.NullPointerException
+        at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+        at pageobjects.ContactPage.clickSubmit(ContactPage.java:94)
+        at stepdefinitions.ContactSteps.theUserClicksSubmitButton(ContactSteps.java:36)
+        at ?.And the user clicks Submit button(Contact.feature:45)
+
+[ERROR] Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 110.051 s <<< FAILURE! - in runner.TestRunner
+[ERROR] feature(runner.TestRunner)  Time elapsed: 83.749 s  <<< FAILURE!
+cucumber.runtime.CucumberException: java.lang.NullPointerException
+Caused by: java.lang.NullPointerException
+
+[INFO]
+[INFO] Results:
+[INFO]
+[ERROR] Failures:
+[ERROR] runner.TestRunner.feature(runner.TestRunner)
+[INFO]   Run 1: PASS
+[ERROR]   Run 2: TestRunner>AbstractTestNGCucumberTests.feature:21 ╗ Cucumber java.lang.NullPoi...
+[INFO]   Run 3: PASS
+[INFO]   Run 4: PASS
+[INFO]
+[INFO]
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+[INFO]
+[ERROR] There are test failures.
+
+Please refer to C:\Users\Amruta\IdeaProjects\CucumberSeleniumJavaProject\target\surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date]-jvmRun[N].dump, [date].dumpstream and [date]-jvmRun[N].dumpstream.
+[INFO]
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ CucumberSeleniumJavaProject ---
+[INFO] Building jar: C:\Users\Amruta\IdeaProjects\CucumberSeleniumJavaProject\target\CucumberSeleniumJavaProject-1.0-SNAPSHOT.jar
+[INFO]
+[INFO] --- maven-cucumber-reporting:3.4.0:generate (execution) @ CucumberSeleniumJavaProject ---
+ERROR StatusLogger No log4j2 configuration file found. Using default configuration: logging only errors to the console.
+[INFO] About to generate Cucumber report.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:54 min
+[INFO] Finished at: 2017-05-30T19:32:50+10:00
+[INFO] Final Memory: 30M/318M
+[INFO] ------------------------------------------------------------------------
+
+C:\Users\Amruta\IdeaProjects\CucumberSeleniumJavaProject>mvn verify
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building CucumberSeleniumJavaProject 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ CucumberSeleniumJavaProject ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ CucumberSeleniumJavaProject ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ CucumberSeleniumJavaProject ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\Amruta\IdeaProjects\CucumberSeleniumJavaProject\src\test\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.6.1:testCompile (default-testCompile) @ CucumberSeleniumJavaProject ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 16 source files to C:\Users\Amruta\IdeaProjects\CucumberSeleniumJavaProject\target\test-classes
+[INFO]
+[INFO] --- maven-surefire-plugin:2.20:test (default-test) @ CucumberSeleniumJavaProject ---
+[INFO]
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running runner.TestRunner
+Open browser here ....
+Starting ChromeDriver 2.29.461591 (62ebf098771772160f391d75e589dc567915b233) on port 40457
+Only local connections are allowed.
+May 30, 2017 7:36:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Close browser here ....
+Open browser here ....
+Starting ChromeDriver 2.29.461591 (62ebf098771772160f391d75e589dc567915b233) on port 4183
+Only local connections are allowed.
+May 30, 2017 7:36:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Close browser here ....
+Open browser here ....
+Starting ChromeDriver 2.29.461591 (62ebf098771772160f391d75e589dc567915b233) on port 29736
+Only local connections are allowed.
+May 30, 2017 7:36:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Close browser here ....
+Open browser here ....
+Starting ChromeDriver 2.29.461591 (62ebf098771772160f391d75e589dc567915b233) on port 11880
+Only local connections are allowed.
+May 30, 2017 7:37:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Close browser here ....
+Open browser here ....
+Starting ChromeDriver 2.29.461591 (62ebf098771772160f391d75e589dc567915b233) on port 41496
+Only local connections are allowed.
+May 30, 2017 7:37:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Close browser here ....
+Open browser here ....
+Starting ChromeDriver 2.29.461591 (62ebf098771772160f391d75e589dc567915b233) on port 37038
+Only local connections are allowed.
+May 30, 2017 7:38:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Close browser here ....
+Open browser here ....
+Starting ChromeDriver 2.29.461591 (62ebf098771772160f391d75e589dc567915b233) on port 28989
+Only local connections are allowed.
+May 30, 2017 7:38:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Close browser here ....
+Open browser here ....
+Starting ChromeDriver 2.29.461591 (62ebf098771772160f391d75e589dc567915b233) on port 20145
+Only local connections are allowed.
+May 30, 2017 7:38:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Close browser here ....
+
+8 Scenarios (8 passed)
+32 Steps (32 passed)
+1m52.093s
+
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 112.848 s - in runner.TestRunner
+[INFO]
+[INFO] Results:
+[INFO]
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+[INFO]
+[INFO]
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ CucumberSeleniumJavaProject ---
+[INFO]
+[INFO] --- maven-cucumber-reporting:3.4.0:generate (execution) @ CucumberSeleniumJavaProject ---
+ERROR StatusLogger No log4j2 configuration file found. Using default configuration: logging only errors to the console.
+[INFO] About to generate Cucumber report.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:57 min
+[INFO] Finished at: 2017-05-30T19:38:22+10:00
+[INFO] Final Memory: 30M/318M
+[INFO] ------------------------------------------------------------------------
+
+C:\Users\Amruta\IdeaProjects\CucumberSeleniumJavaProject>
